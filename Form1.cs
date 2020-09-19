@@ -174,7 +174,34 @@ namespace libTAS_Movie_File_Editor
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.InitialDirectory = @"C:\";
+            saveFileDialog1.Title = "Save .ltm file";
+            saveFileDialog1.CheckPathExists = true;
+            saveFileDialog1.DefaultExt = "ltm";
+            saveFileDialog1.Filter = "libTAS movie files (*.ltm)|*.ltm";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+            }
         }
     }
 }
+
