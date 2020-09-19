@@ -1,4 +1,5 @@
-﻿﻿## libTAS Movie File Editor (ltmeditor/ltmfe)
+﻿﻿
+## libTAS Movie File Editor (ltmeditor/ltmfe)
 libTAS movie file (.ltm) editor.
 
 ## Overview
