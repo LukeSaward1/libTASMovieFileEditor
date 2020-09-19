@@ -1,6 +1,5 @@
-﻿﻿
-## libTAS Movie File Editor (ltmeditor/ltmfe)
-libTAS movie file (.ltm) editor.
+﻿## libTAS Movie File Editor
+libTAS movie file (.ltm) editor for Windows. Porting to Linux/Mac is not a priority at the moment.
 
 ## Overview
 This program aims to edit specific attributes of a libTAS movie file (.ltm file).
