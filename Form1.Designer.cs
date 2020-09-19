@@ -101,21 +101,23 @@
             // openLibTASMovieFileToolStripMenuItem
             // 
             this.openLibTASMovieFileToolStripMenuItem.Name = "openLibTASMovieFileToolStripMenuItem";
-            this.openLibTASMovieFileToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.openLibTASMovieFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openLibTASMovieFileToolStripMenuItem.Text = "Open .ltm file";
             this.openLibTASMovieFileToolStripMenuItem.Click += new System.EventHandler(this.openLibTASMovieFileToolStripMenuItem_Click);
             // 
             // saveLibTASMovieFileToolStripMenuItem
             // 
             this.saveLibTASMovieFileToolStripMenuItem.Name = "saveLibTASMovieFileToolStripMenuItem";
-            this.saveLibTASMovieFileToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveLibTASMovieFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveLibTASMovieFileToolStripMenuItem.Text = "Save .ltm file";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Tag = "AltF4";
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 

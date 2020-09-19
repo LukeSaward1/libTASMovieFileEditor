@@ -171,5 +171,10 @@ namespace libTAS_Movie_File_Editor
         {
 
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
