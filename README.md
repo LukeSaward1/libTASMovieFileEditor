@@ -1,4 +1,4 @@
-﻿## libTAS Movie File Editor
+﻿# libTAS Movie File Editor
 libTAS movie file (.ltm) editor for Windows. Porting to Linux/Mac is not a priority at the moment.
 
 ## Overview
